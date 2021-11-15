@@ -1,0 +1,27 @@
+.container {
+    min-width: 100vw;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+h1 {
+    color: white;
+}
+
+.button {
+    width: 285px;
+    padding: 10px;
+    margin: 10px;
+    background-color: #161B22;
+    font-size: 20px;
+    border: 1px solid #30363D;
+    color: white;
+    cursor: pointer;
+}
+
+.button:hover {
+    background-color: #30363D;
+}
