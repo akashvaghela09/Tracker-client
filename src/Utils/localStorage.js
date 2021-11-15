@@ -13,4 +13,8 @@ function saveData(key, data) {
     localStorage.setItem(key, JSON.stringify(data));
 }
 
-export { loadData, saveData}
+function clearData() {
+    localStorage.clear();
+}
+
+export { loadData, saveData, clearData}
