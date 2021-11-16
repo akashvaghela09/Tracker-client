@@ -16,7 +16,6 @@ const Register = () => {
     
     const handleRegister = () => {
         setLoading(true)
-        
         if(name === "" || email === "" || password === ""){
             alert("Something is missing")
             setLoading(false)
@@ -28,7 +27,8 @@ const Register = () => {
                 "avatar_url": "",
             }
             
-            axios.post(`${process.env.REACT_APP_BACKEND_URL}/users`, temp)
+            
+            axios.post(`${process.env.REACT_APP_BACKEND_URL}users`, temp)
             .then((res) => {
                 alert("User Registered")
                 const response = res.data.data;

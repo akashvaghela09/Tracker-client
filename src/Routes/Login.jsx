@@ -31,7 +31,7 @@ const Login = () => {
             "avatar_url": ""
         }
         
-        axios.post(process.env.REACT_APP_BACKEND_URL+"/users/login", temp)
+        axios.post(process.env.REACT_APP_BACKEND_URL+"users/login", temp)
         .then((res) => {
             const response = res.data.data
             saveData("name", response.name);
