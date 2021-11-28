@@ -4,6 +4,8 @@
     justify-content: left;
     align-items: center;
     background-color: #0984e3;
+    height: 50px;
+    border: 1px solid green;
 }
 
 .menuBtn {
@@ -17,6 +19,18 @@
     font-weight: bolder;
     font-size: 28px;
     color: white;
+}
+
+.categoryLinks {
+    background-color: #e2e2e2;
+    margin: 5px 10px ;
+    font-size: 18px;
+    padding: 10px 60px;
+    cursor: pointer;
+}
+
+.categoryLinks:hover {
+    background-color: turquoise;
 }
 
 @media screen and (max-width: 600px){
