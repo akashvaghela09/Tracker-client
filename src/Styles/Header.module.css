@@ -3,13 +3,12 @@
     display: flex;
     justify-content: left;
     align-items: center;
-    background-color: #0984e3;
+    background-color: #6c757d;
     height: 50px;
-    border: 1px solid green;
 }
 
 .menuBtn {
-    color: white;
+    color: #e2e2e2;
     margin: 5px;
 }
 
@@ -18,7 +17,8 @@
     text-align: center;
     font-weight: bolder;
     font-size: 28px;
-    color: white;
+    color: #e2e2e2;
+    user-select: none;
 }
 
 .categoryLinks {

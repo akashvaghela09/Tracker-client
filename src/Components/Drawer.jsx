@@ -1,17 +1,15 @@
 import React from 'react';
 import styles from "../Styles/Drawer.module.css";
+import { DrawerContent } from './DrawerContent';
+import '../App.css';
 
 const Drawer = () => {
     return (
-        <div className={styles.container}>
-            <div className={styles.categoryLinks}>Home</div>
-            <div className={styles.categoryLinks}>Today</div>
-            <div className={styles.categoryLinks}>Tomorrow</div>
-            <div className={styles.categoryLinks}>Wishlist</div>
-            <div className={styles.categoryLinks}>Upcoming</div>
-            <div className={styles.categoryLinks}>Backlog</div>
-            <div className={styles.categoryLinks}>Reports</div>
+        <div className={styles.container} id="normalDrawer">
+            <DrawerContent />
+            {/* <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis, sunt.</p> */}
         </div>
+        
     )
 }
 

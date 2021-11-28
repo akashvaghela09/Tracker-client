@@ -11,3 +11,21 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+#swipableDrawer {
+  display: none;
+}
+
+#normalDrawer {
+  display: block;
+}
+
+@media screen and (max-width: 600px){
+  #swipableDrawer {
+    display: block;
+  }
+  
+  #normalDrawer {
+      display: none;
+  }
+}
